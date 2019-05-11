@@ -11,5 +11,5 @@ def first_wa(elements)
 end
 
 def remove_non_strings(array)
-  array.select{|word| word.class == string}
+  array.select{|word| word.class == String}
 end

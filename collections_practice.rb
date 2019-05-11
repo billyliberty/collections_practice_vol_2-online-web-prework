@@ -5,4 +5,3 @@ end
 def contains_letter_a(elements)
   elements.all? { |word| word.include? ("a")}
 end
-  

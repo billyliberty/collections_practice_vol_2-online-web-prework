@@ -15,7 +15,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(something)
-  something.collect do |word|
+  something.uniq.map do |word|
     word[:count] = array.count(word)
     word
   end

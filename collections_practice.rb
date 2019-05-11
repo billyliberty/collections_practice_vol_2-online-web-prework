@@ -5,3 +5,7 @@ end
 def contain_a(elements)
   elements.select { |word| word.include?("a") }
 end
+
+def first_wa(elements)
+  elements.find{|word| word [0..1] == "wa"}
+end

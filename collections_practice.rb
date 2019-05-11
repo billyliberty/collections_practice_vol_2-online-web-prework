@@ -16,7 +16,7 @@ end
 
 def count_elements(something)
   something.uniq.map do |word|
-    word[:count] = array.count(word)
+    word[:count] = something.count(word)
     word
   end
 end
